@@ -1,3 +1,5 @@
+import { mergeConfig } from 'next/dist/server/config-shared'
+
 let userConfig = undefined
 try {
   userConfig = await import('./v0-user-next.config')
