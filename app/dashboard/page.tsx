@@ -1,19 +1,19 @@
 "use client"
 
-import { useState } from "react"
-import { Sidebar, SidebarBody, SidebarLink } from "../../../components/ui/sidebar"
-import { UserCog, Settings, Database } from "lucide-react"
-import Link from "next/link"
-import { motion } from "framer-motion"
-import { ThemeToggle } from "../../../components/ui/theme-toggle"
-import { DatabaseTable } from "../../../components/database-table"
-import { AddDatabaseDialog } from "../../../components/add-database-dialog"
-import { Button } from "@/components/ui/button"
-import { ChatInterface } from "@/components/chat-interface"
-import ProfilePage from "./profile/page"
-import SettingsPage from "./settings/page"
-import MouseMoveEffect from "@/components/mouse-move-effect"
-import { LogoutDialog } from "@/components/logout-dialog"
+import { useState } from "react";
+import { Sidebar, SidebarBody, SidebarLink } from "@/components/ui/sidebar"; // Usa el alias @
+import { UserCog, Settings, Database } from "lucide-react";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ThemeToggle } from "@/components/ui/theme-toggle"; // Usa el alias @
+import { DatabaseTable } from "@/components/database-table"; // Usa el alias @
+import { AddDatabaseDialog } from "@/components/add-database-dialog"; // Usa el alias @
+import { Button } from "@/components/ui/button"; // Usa el alias @
+import { ChatInterface } from "@/components/chat-interface"; // Usa el alias @
+import ProfilePage from "./profile/page";
+import SettingsPage from "./settings/page";
+import MouseMoveEffect from "@/components/mouse-move-effect"; // Usa el alias @
+import { LogoutDialog } from "@/components/logout-dialog"; // Usa el alias @
 
 const links = [
   {
